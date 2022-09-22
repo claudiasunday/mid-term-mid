@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mid term</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <!-- /* Sección Navbar */ -->
+
+    <nav class="nav-bar">
+        <a href="index.html"><img class="circle" title="Return to home" src="/logos/circle.svg" alt="logo circle"></a>
+
+        <ul class="navLinks">
+            <li class="navItem" a href="/index.html">Home</a></li>
+            <li class="navItem" a href="/projects.html">Projects</a></li>
+            <li class="navItem" a href="#">Services</a></li>
+        </ul>
+
+        <div class="hamburguer"> 
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+  
+
+
+        <ul class="contact">
+            <li class="btn"><a title="Fill up the form" href="/contactus.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section class="containerContact">
+        <h1> Contact us </h1>
+        <form action="#">
+         <div class="formbox" id ="nameId">
+             <label for="name">Full name </label>
+             <br>
+             <br>
+             <input type="text" id="name" placeholder="Enter your full name">
+         </div>
+         <br>
+          <div class="mailnphone">
+            <div class="formbox" id="mailId">
+                <label for="email">email</label>
+                <br>
+                <input type="email" name="email" id="email" placeholder="Enter your email adress">
+            </div>
+            <br>
+            <div class="formbox" id="phoneId">
+                <label for="phone">Phone</label>
+                <br>
+                <input type="tel" name="phone" id="phone" placeholder="Enter your phone number">
+            </div>
+        </div>
+         <br>
+         <div class="formbox"id="messageID">
+             <label for="message">message</label>
+             <br>
+            
+             <textarea name="message" id="message" placeholder="Write your message here..." cols="50" rows="5"></textarea>
+         </div>
+         <br>
+         <button class="btn" id="submit"> Submit </button>
+      </section>
+
+
+
+
+
+  
+      <!-- /* Sección Footer */ -->
+  
+      <footer class="footer">
+        <div class="address">
+          <a href="#"
+            ><img
+              class="circle"
+              title="Return to home"
+              src="/logos/circle.svg"
+              alt="logo circle"
+          /></a>
+          <p>
+            2972 Westheimer Rd. Santa Ana,<br />
+            Illinois 85486
+          </p>
+        </div>
+        <ul class="sitemap">
+          <li><a href="#">Team</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Press</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </footer>
+  
+      <script src="/JS/fetchData.js"></script>
+      <script src="/nav.js"></script>
+    </body>
+  </html>
+  
