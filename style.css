@@ -183,10 +183,10 @@ li a:hover {
 }
 
 .img-card {
-  max-width: 150px;
+  max-width: 250px;
   position: absolute;
   top: 0%;
-  left: -10%;
+  left: -25%;
   right: auto;
   bottom: auto;
   background-color: transparent;
@@ -196,8 +196,8 @@ li a:hover {
 .img-card2 {
   top: auto;
   left: auto;
-  right: -25%;
-  bottom: -15%;
+  right: -30%;
+  bottom: -25%;
 }
 
 .costumers {
@@ -381,14 +381,14 @@ a {
 .img-services {
   background: color #ecf7ff;
   border-radius: 50%;
-  padding: 10px;
+  /* padding: 10px; */
   margin: 10px;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
 }
 
 .img-services img {
-  background-color: #ecf7ff;
+  background-color: transparent;
 }
 
 .cta {
@@ -713,13 +713,29 @@ a {
     font-size: 50px;
   }
 
+  .hero {
+    margin: 8% 8%;
+  }
+
   .hero h3 {
     font-size: 24px;
+  }
+
+  .content1 {
+    width: 40%;
+    height: 100%;
   }
 
   .costumers {
     display: flex;
     justify-content: space-between;
+    width: 70%;
+    height: auto;
+  }
+
+  .img-client {
+    width: 6rem;
+    height: 6rem;
   }
   .hamburguer {
     display: none;
@@ -735,30 +751,39 @@ a {
     max-width: auto;
   }
 
+  .recent-projects {
+    margin-top: 8%;
+  }
   .recent-projects h2 {
-    margin-left: 20px;
+    margin: 0% 8%;
   }
 
   .projects {
     display: flex;
     justify-content: space-between;
     gap: 30px;
-    align-items: center;
+    align-items: baseline;
     width: auto;
-    margin: 0 auto;
+    margin: 0% 8%;
   }
 
   .project-desc {
     width: 30%;
   }
+  /* ------------------- */
 
+  .testimonial {
+    margin: 8% 8%;
+  }
   .testimonial-text h3 {
     font-size: 40px;
+    text-align: center;
   }
 
   .testimonial-text p {
     font-size: 20px;
     margin-bottom: 20px;
+    text-align: center;
   }
 
   .services-cont {
@@ -791,6 +816,11 @@ a {
   .other-projects .project-desc img {
     height: 120px;
   }
+}
+/* ________________ */
+
+.services {
+  margin: 10%;
 }
 
 /* CSS PAGINA CONTACT US */
@@ -871,11 +901,6 @@ textarea {
 
 .sub-text {
 }
-
-/* .other-projects {
-  max-width: 1100px;
-  display: flex;
-} */
 
 /* .img-project-page {
   width: 40%;
